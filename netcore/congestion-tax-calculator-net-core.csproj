@@ -2,8 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>congestion.calculator</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+  <None Update="congestionTaxRules.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  </ItemGroup>
 
 </Project>

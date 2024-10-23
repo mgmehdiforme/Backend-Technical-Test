@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace congestion.calculator
+namespace congestion.calculator.Vehicles
 {
     public interface Vehicle
     {
-        String GetVehicleType();
+        string GetVehicleType();
     }
 }
